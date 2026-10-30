@@ -1,5 +1,5 @@
 percentage = float(input("Enter your percentage grade: "))
-if percentage >= 90 or percentage <= 100:
+if percentage >= 90 and percentage <= 100:
     gpa = 4.0
     grade = 'A+'
 elif percentage >= 85:
